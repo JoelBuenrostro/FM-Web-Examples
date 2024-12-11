@@ -1,47 +1,73 @@
-# Astro Starter Kit: Minimal
+# Frontend Mentor - QR Code Component Challenge
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is my solution to the [QR Code Component Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) on Frontend Mentor. The challenge helped me practice responsive design, semantic HTML, and CSS techniques.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Table of Contents
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Process](#process)
+  - [Built With](#built-with)
+  - [Challenges and Solutions](#challenges-and-solutions)
+  - [Retrospective](#retrospective)
+- [Resources](#resources)
+- [Author](#author)
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## Overview
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Screenshot
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+![QR Code Component Screenshot](./QR-Component/public/desktop-design.jpg)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Links
 
-Any static assets, like images, can be placed in the `public/` directory.
+- [Solution URL](https://github.com/JoelBuenrostro/FM-Web-Examples/tree/main/QR-Component)
+- [Live Demo](https://astro-qr-component.netlify.app)
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## Process
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Built With
 
-## 👀 Want to learn more?
+- **Semantic HTML5:** Proper use of elements like `<main>`, `<section>`, `<h1>`, and `<p>` to ensure accessibility and semantic correctness.
+- **CSS Flexbox:** For creating a flexible layout that adapts to different screen sizes.
+- **Responsive Design:** Implemented with relative units (`rem`, `%`) and media queries for optimal viewing on devices ranging from 320px to large screens.
+- **Google Fonts:** Integrated the "Outfit" font family with weights 400 and 700.
+- **Astro Framework:** Used for component structure and easy project management.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Challenges and Solutions
+
+1. **Ensuring Responsiveness:**
+   Fixed layout dimensions caused issues on smaller screens. I resolved this by using relative units like `%` and `rem` and incorporating `media queries` to adjust styles for various breakpoints.
+
+2. **Maintaining Accessibility:**
+   Added descriptive `alt` attributes for images and used `aria-labelledby` in the `<section>` to associate it with its title, enhancing screen reader navigation.
+
+3. **Organizing Styles:**
+   Adopted the **BEM methodology** for class naming and structured the CSS into a modular, maintainable format.
+
+### Retrospective
+
+I am proud of creating a fully responsive and accessible design. If I were to redo this project, I would explore adding subtle animations for a more dynamic user experience and potentially refactor the styles using a CSS preprocessor like SASS for better scalability.
+
+---
+
+## Resources
+
+- [Frontend Mentor Style Guide](./QR-Component/style-guide.md) - Guidelines for typography and color palette.
+- [MDN Web Docs](https://developer.mozilla.org/) - For understanding HTML and CSS best practices.
+- [Google Fonts](https://fonts.google.com/specimen/Outfit) - "Outfit" font integration.
+
+---
+
+## Author
+
+- Frontend Mentor - [@JoelBuenrostro](https://www.frontendmentor.io/profile/JoelBuenrostro)
+- GitHub - [JoelBuenrostro](https://github.com/JoelBuenrostro)
+- Instagram - [@joel_buenrostro](https://www.instagram.com/joel_buenrostro/)
+
+Feel free to share feedback or suggestions for improvement. Happy coding!

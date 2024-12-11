@@ -8,6 +8,20 @@ import "../styles/global.css";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Responsive QR code component challenge for Frontend Mentor. Improve your front-end skills by building this accessible and mobile-friendly component."
+    />
+    <meta property="og:title" content="QR Code Component Challenge" />
+    <meta
+      property="og:description"
+      content="Responsive QR code component built with semantic HTML and CSS."
+    />
+    <meta
+      property="og:image"
+      content="https://your-live-site-url.com/preview-image.jpg"
+    />
+    <meta property="og:url" content="https://your-live-site-url.com" />
     <title>QR Component</title>
     <link
       rel="icon"
@@ -15,6 +29,8 @@ import "../styles/global.css";
       sizes="32x32"
       href="/QR-Component/public/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
@@ -26,7 +42,7 @@ import "../styles/global.css";
         <div class="qr">
           <img
             src="image-qr-code.png"
-            alt="QR code leading to Frontend Mentor's website"
+            alt="Scan this QR code to access Frontend Mentor's website for coding challenges."
           />
         </div>
         <h1 id="card-title" class="card-title">
@@ -37,14 +53,18 @@ import "../styles/global.css";
           to the next level.
         </p>
       </section>
-      <div class="attribution">
+      <footer class="attribution">
         Challenge by <a
           href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank">Frontend Mentor</a
-        >. Coded by <a href="https://www.instagram.com/joel_buenrostro/"
-          >Joel Buenrostro</a
+          target="_blank"
+          rel="noopener noreferrer">Frontend Mentor</a
+        >
+        . Coded by <a
+          href="https://www.instagram.com/joel_buenrostro/"
+          target="_blank"
+          rel="noopener noreferrer">Joel Buenrostro</a
         >.
-      </div>
+      </footer>
     </main>
   </body>
 </html>
