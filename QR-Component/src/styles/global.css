@@ -9,6 +9,16 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  padding-top: 12px; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
 /* Card Container */
 .card {
   background-color: white;
