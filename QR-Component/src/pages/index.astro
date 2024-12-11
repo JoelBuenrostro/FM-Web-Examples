@@ -1,0 +1,50 @@
+---
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>QR Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/QR-Component/public/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="card" aria-labelledby="card-title">
+        <div class="qr">
+          <img
+            src="image-qr-code.png"
+            alt="QR code leading to Frontend Mentor's website"
+          />
+        </div>
+        <h1 id="card-title" class="card-title">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="card-text">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level.
+        </p>
+      </section>
+      <div class="attribution">
+        Challenge by <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank">Frontend Mentor</a
+        >. Coded by <a href="https://www.instagram.com/joel_buenrostro/"
+          >Joel Buenrostro</a
+        >.
+      </div>
+    </main>
+  </body>
+</html>

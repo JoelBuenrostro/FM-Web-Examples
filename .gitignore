@@ -10,6 +10,11 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+# Design files
+*.sketch
+*.fig
+*.xd
+
 # Runtime data
 pids
 *.pid
@@ -37,6 +42,10 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+
+# System Files
+.DS_Store
+.prettierignore
 
 # Dependency directories
 node_modules/
