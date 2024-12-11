@@ -9,6 +9,11 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
+a:focus {
+  outline: 2px dashed #2c7dfa;
+  outline-offset: 2px;
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center;
