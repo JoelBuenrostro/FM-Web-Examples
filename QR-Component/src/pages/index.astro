@@ -35,24 +35,27 @@ import "../styles/global.css";
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../styles/global.css" />
   </head>
   <body>
-    <main>
-      <section class="card" aria-labelledby="card-title">
-        <div class="qr">
-          <img
-            src="image-qr-code.png"
-            alt="Scan this QR code to access Frontend Mentor's website for coding challenges."
-          />
-        </div>
-        <h1 id="card-title" class="card-title">
-          Improve your front-end skills by building projects
-        </h1>
-        <p class="card-text">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level.
-        </p>
-      </section>
+    <div class="layout">
+      <main class="content">
+        <section class="card" aria-labelledby="card-title">
+          <div class="qr">
+            <img
+              src="image-qr-code.png"
+              alt="Scan this QR code to access Frontend Mentor's website for coding challenges."
+            />
+          </div>
+          <h1 id="card-title" class="card-title">
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="card-text">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level.
+          </p>
+        </section>
+      </main>
       <footer class="attribution">
         Challenge by <a
           href="https://www.frontendmentor.io?ref=challenge"
@@ -65,6 +68,6 @@ import "../styles/global.css";
           rel="noopener noreferrer">Joel Buenrostro</a
         >.
       </footer>
-    </main>
+    </div>
   </body>
 </html>

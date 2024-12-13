@@ -2,6 +2,8 @@
 
 This is my solution to the [QR Code Component Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) on Frontend Mentor. The challenge helped me practice responsive design, semantic HTML, and CSS techniques.
 
+![Frontend Mentor](https://img.shields.io/badge/FrontendMentor-Challenge-blue) ![Custom Badge](https://img.shields.io/badge/Level-Newbie-blue) [![Netlify Status](https://api.netlify.com/api/v1/badges/64e3749d-5ee9-46e4-a1c4-e66d42975fd3/deploy-status)](https://app.netlify.com/sites/astro-qr-component/deploys) ![Astro](https://img.shields.io/badge/Astro-v5.0.3-blue?logo=astro&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-v20.17.0-green?logo=node.js&logoColor=white)
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -47,8 +49,11 @@ This is my solution to the [QR Code Component Challenge](https://www.frontendmen
 2. **Maintaining Accessibility:**
    Added descriptive `alt` attributes for images and used `aria-labelledby` in the `<section>` to associate it with its title, enhancing screen reader navigation.
 
-3. **Organizing Styles:**
-   Adopted the **BEM methodology** for class naming and structured the CSS into a modular, maintainable format.
+3. **Footer Placement:**
+   Ensured the footer stays at the bottom of the page using `flexbox` for the layout, allowing the main content to occupy available space without affecting the footer's position.
+
+4. **Height Consistency:**
+   Maintained a fixed height of 497px for the QR card on large screens, with responsive adjustments for smaller devices using `max-height` and media queries.
 
 ### Retrospective
 
