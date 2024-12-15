@@ -20,6 +20,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 152px;
+  margin-bottom: 151px;
 }
 
 footer.attribution {
@@ -95,5 +97,10 @@ footer.attribution {
 
   .card-text {
     font-size: 15px;
+  }
+
+  .content {
+    margin-top: 85px;
+    margin-bottom: 85px;
   }
 }
