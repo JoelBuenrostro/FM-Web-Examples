@@ -22,7 +22,7 @@ This is my solution to the [QR Code Component Challenge](https://www.frontendmen
 
 ### Screenshot
 
-![QR Code Component Screenshot](./QR-Component/public/desktop-design.jpg)
+![QR Code Component Screenshot](./public/desktop-preview.jpg)
 
 ### Links
 
