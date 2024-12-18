@@ -1,0 +1,41 @@
+---
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Responsive blog preview card challenge for Frontend Mentor. 
+      Improve your front-end skills by building this accessible and mobile-friendly component."
+    />
+    <link rel="icon" type="image/svg" sizes="32x32" href="/favicon-32x32.svg" />
+    <title>Blog preview card</title>
+  </head>
+  <body>
+    <article class="card">
+      <img
+        src="/illustration-article.svg"
+        class="blog-image"
+        alt="Blog preview image"
+      />
+      <div class="content">
+        <span class="category">Learning</span>
+        <p class="published">Published 21 Dec 2023</p>
+        <h2 class="title">HTML & CSS foundations</h2>
+        <p class="description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="author">
+          <img src="/image-avatar.webp" class="userpic" alt="Author avatar" />
+          <p class="name">Greg Hooper</p>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
