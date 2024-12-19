@@ -5,29 +5,52 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ![Project Screenshot](./src/assets/images/preview.jpg)
 
 ![Frontend Mentor](https://img.shields.io/badge/FrontendMentor-Challenge-blue) ![Custom Badge](https://img.shields.io/badge/Level-Newbie-blue)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/64e3749d-5ee9-46e4-a1c4-e66d42975fd3/deploy-status)](https://app.netlify.com/sites/astro-qr-component/deploys) ![Astro](https://img.shields.io/badge/Astro-v5.0.3-blue?logo=astro&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-v20.17.0-green?logo=node.js&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6829c5b8-9e49-448f-81bb-6b23234a9e0f/deploy-status)](https://app.netlify.com/sites/astro-blog-preview-card/deploys) ![Astro](https://img.shields.io/badge/Astro-v5.0.3-blue?logo=astro&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-v20.17.0-green?logo=node.js&logoColor=white)
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
+  - [The Challenge](#the-challenge)
+  - [Key Features](#key-features)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [My Process](#my-process)
+  - [Technologies Used](#technologies-used)
+  - [What I Learned](#what-i-learned)
 - [Resources](#resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
----
 
 ## Overview
 
+### The Challenge
+
+The **Blog Preview Card** project is part of the [Frontend Mentor Challenges](https://www.frontendmentor.io). This challenge focuses on creating a responsive and accessible blog preview card that adapts seamlessly to various screen sizes.
+
 Users should be able to:
 
-- View the card design and content in a responsive layout across devices.
-- See hover states for interactive elements.
-- Experience clean and semantic HTML combined with optimized CSS.
+- View the card layout with clean and semantic HTML.
+- Interact with hover and focus states for all interactive elements.
+- Experience an optimized design across desktop, tablet, and mobile devices.
+
+---
+
+### Key Features
+
+1. **Responsive Design**:
+   - The card adjusts dynamically using CSS Flexbox and media queries.
+   - Fluid widths and font scaling ensure a seamless experience from small to large screens.
+
+2. **Accessible Components**:
+   - Proper use of semantic HTML tags like `<article>`, `<img alt>`, `<h2>`, and `<p>`.
+   - Visual hierarchy established with headings, colors, and spacing.
+
+3. **Custom Styling**:
+   - Fully customizable through CSS custom properties (`:root`) for colors, font sizes, and spacing.
+   - Local integration of the **Figtree** font family for consistent typography.
+
+4. **Performance Optimization**:
+   - Minimal external dependencies.
+   - Self-hosted assets for fast loading and offline availability.
 
 ---
 
@@ -49,14 +72,14 @@ Add screenshots of your solution:
 
 ## My process
 
-## Built With
+### Technologies Used
 
-- **Semantic HTML5**
-- **CSS Custom Properties**
-- **CSS Flexbox**
-- **CSS Media Queries** for responsiveness
-- **Font**: Figtree (self-hosted)
-- **Tools**: Astro framework
+- **Astro Framework**: Component-based structure for easy scalability.
+- **CSS**:
+  - Custom properties for maintainability.
+  - Media queries for responsive layouts.
+- **HTML5**: Semantic and accessible markup.
+- **Font Integration**: Self-hosted **Figtree** font.
 
 ---
 
@@ -90,9 +113,5 @@ Avoiding fixed heights and relying on padding and flexbox for content spacing.
 - Frontend Mentor - [@JoelBuenrostro](https://www.frontendmentor.io/profile/JoelBuenrostro)
 - GitHub - [JoelBuenrostro](https://github.com/JoelBuenrostro)
 - Instagram - [@joel_buenrostro](https://www.instagram.com/joel_buenrostro/)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 Feel free to share feedback or suggestions for improvement. Happy coding!
