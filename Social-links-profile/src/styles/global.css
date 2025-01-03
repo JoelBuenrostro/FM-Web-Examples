@@ -32,7 +32,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--color-background);
-
 }
 
 .layout {
@@ -71,7 +70,7 @@ body {
 }
 
 .profile-name {
-  font-size: 1.5rem;
+  font-size: var(--font-size-large);
   font-weight: 700;
   margin: 8px 0;
   font-family: var(--font-family);
@@ -82,20 +81,19 @@ body {
   color: var(--color-accent);
   text-align: center;
   font-family: var(--font-family);
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-small);
   font-weight: 700;
-  font-size: var(--font-size-medium);;
 }
 
 .profile-bio {
   align-self: stretch;
   text-align: center;
-  font-size: 1rem;
+  font-size: var(--font-size-small);
   font-family: var(--font-family);
   font-weight: 400;
   line-height: 150%;
   color: var(--color-text);
-  margin: 8px 0 16px;
+  margin: 24px 0 24px 0; 
 }
 
 .social-links {
@@ -114,25 +112,28 @@ body {
   height: 45px;
   display: flex;
   padding: var(--spacing-150, 12px);
-  color: var(--color-text);
   justify-content: center;
   align-items: center;
   font-family: var(--font-family);
   gap: var(--spacing-100, 8px);
   border-radius: 8px;
   background-color: var(--color-secondary);
-  transition: background-color 0.3s; 
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   margin-bottom: 16px;
 }
 
 .social-link a {
   color: var(--color-text);
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .social-link:hover {
   cursor: pointer;
   background-color: var(--color-accent);
+}
+
+.social-link:hover a {
   color: var(--color-secondary);
 }
 
