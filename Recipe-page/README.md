@@ -8,8 +8,6 @@ This is my solution to the [Recipe Page challenge](https://www.frontendmentor.io
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Desktop Design](#desktop-design)
-  - [Mobile Design](#mobile-design)
   - [Links](#links)
 - [Process](#process)
   - [Built With](#built-with)
@@ -26,18 +24,10 @@ This is my solution to the [Recipe Page challenge](https://www.frontendmentor.io
 
 ![Recipe page desktop](./public/assets/preview.jpg)
 
-### Desktop Design
-
-![Desktop design](./public/assets/desktop-design.jpg)
-
-### Mobile Design
-
-![Mobile design](./public/assets/mobile-design.jpg)
-
 ### Links
 
 - [Solution URL](https://github.com/JoelBuenrostro/FM-Web-Examples/tree/main/Recipe-page)
-- [Live Demo](#)
+- [Live Demo](https://astro-recipe-page.netlify.app/)
 
 ---
 
