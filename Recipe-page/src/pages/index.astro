@@ -71,25 +71,34 @@ import "../styles/global.css";
               <b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.
             </li>
           </ol>
-          <h2>Nutrition</h2>
-          <table class="nutrition-table">
-            <thead>
-              <tr>
-                <th>Calories</th>
-                <th>Carbs</th>
-                <th>Protein</th>
-                <th>Fat</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>277kcal</td>
-                <td>0g</td>
-                <td>20g</td>
-                <td>22g</td>
-              </tr>
-            </tbody>
-          </table>
+          <section class="nutrition-block">
+            <h2 class="nutrition-title">Nutrition</h2>
+            <p class="nutrition-description">
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+            <div class="nutrition-table">
+              <div class="nutrition-row">
+                <span class="nutrition-label">Calories</span>
+                <span class="nutrition-value">277kcal</span>
+              </div>
+              <hr class="nutrition-separator" />
+              <div class="nutrition-row">
+                <span class="nutrition-label">Carbs</span>
+                <span class="nutrition-value">0g</span>
+              </div>
+              <hr class="nutrition-separator" />
+              <div class="nutrition-row">
+                <span class="nutrition-label">Protein</span>
+                <span class="nutrition-value">20g</span>
+              </div>
+              <hr class="nutrition-separator" />
+              <div class="nutrition-row">
+                <span class="nutrition-label">Fat</span>
+                <span class="nutrition-value">22g</span>
+              </div>
+            </div>
+          </section>
         </section>
       </div>
     </main>
