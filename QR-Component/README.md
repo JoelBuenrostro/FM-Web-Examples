@@ -1,4 +1,4 @@
-# Frontend Mentor - QR Code Component Challenge
+# QR Code Component
 
 This is my solution to the [QR Code Component Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) on Frontend Mentor. The challenge helped me practice responsive design, semantic HTML, and CSS techniques.
 
