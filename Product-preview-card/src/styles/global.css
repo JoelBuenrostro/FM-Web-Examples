@@ -24,7 +24,17 @@
   --space-50: 4px;
 }
 
+html,
 body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--neutral-cream);
   font-family: var(--font-primary);
   font-size: 14px;
@@ -81,7 +91,7 @@ body {
   background: var(--neutral-white);
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  margin: 80px auto 172px auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -160,7 +170,7 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1029px) {
+@media (min-width: 768px) {
   body {
     font-size: 14px;
   }
@@ -168,7 +178,7 @@ body {
   .card {
     width: 600px;
     height: 456px;
-    margin: 286px 84px;
+    margin: 0;
     display: grid;
     grid-template-columns: 300px 300px;
     grid-template-rows: auto auto auto;
@@ -260,5 +270,3 @@ body {
     vertical-align: middle;
   }
 }
-
-/*TODO: Desktop layout: target user test size ~1440x1029*/
