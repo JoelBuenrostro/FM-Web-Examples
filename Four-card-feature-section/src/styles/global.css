@@ -1,0 +1,19 @@
+/*
+  Four Card Feature Section
+  Global CSS
+  Last updated: 2026-02-02
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;&display=swap");
+
+:root {
+  --primary-color: hsl(0, 78%, 63%);
+  --secondary-color: hsl(180, 62%, 55%);
+  --tertiary-color: hsl(34, 97%, 64%);
+  --fourth-color: hsl(212, 86%, 64%);
+  --neutral-grey: hsl(234, 12%, 34%);
+  --neutral-light-grey: hsl(212, 6%, 44%);
+  --white: hsl(0, 0%, 100%);
+  --font-primary: "Poppins", Arial, sans-serif;
+  --font-size-base: 15px;
+}
