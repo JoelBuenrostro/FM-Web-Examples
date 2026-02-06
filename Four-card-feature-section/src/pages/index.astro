@@ -6,13 +6,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <title>Four card feature section</title>
   </head>
-  <body>
-    <header>
+  <body class="container">
+    <header class="header">
       <h1>Reliable, efficient delivery Powered by Technology</h1>
       <p>
         Our Artificial Intelligence powered tools use millions of project data
@@ -20,36 +21,40 @@
       </p>
     </header>
     <main>
-      <article>
-        <h2>Supervisor</h2>
-        <p>Monitors activity to identify project roadblocks</p>
-        <figure>
-          <img src="/icon-supervisor.svg" alt="Supervisor Icon" />
-        </figure>
-      </article>
-      <article>
-        <h2>Team Builder</h2>
-        <p>
-          Scans our talent network to create the optimal team for your project
-        </p>
-        <figure>
-          <img src="/icon-team-builder.svg" alt="Team Builder Icon" />
-        </figure>
-      </article>
-      <article>
-        <h2>Karma</h2>
-        <p>Regularly evaluates our talent to ensure quality</p>
-        <figure>
-          <img src="/icon-karma.svg" alt="Karma Icon" />
-        </figure>
-      </article>
-      <article>
-        <h2>Calculator</h2>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-        <figure>
-          <img src="/icon-calculator.svg" alt="Calculator Icon" />
-        </figure>
-      </article>
+      <section class="cards-grid">
+        <article class="card card--supervisor">
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify project roadblocks</p>
+          <figure>
+            <img src="/icon-supervisor.svg" alt="Supervisor Icon" />
+          </figure>
+        </article>
+        <article class="card card--team">
+          <h2>Team Builder</h2>
+          <p>
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <figure>
+            <img src="/icon-team-builder.svg" alt="Team Builder Icon" />
+          </figure>
+        </article>
+        <article class="card card--karma">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <figure>
+            <img src="/icon-karma.svg" alt="Karma Icon" />
+          </figure>
+        </article>
+        <article class="card card--calculator">
+          <h2>Calculator</h2>
+          <p>
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <figure>
+            <img src="/icon-calculator.svg" alt="Calculator Icon" />
+          </figure>
+        </article>
+      </section>
     </main>
     <footer>
       <p>

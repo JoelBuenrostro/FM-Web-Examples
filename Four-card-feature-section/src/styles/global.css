@@ -1,19 +1,193 @@
 /*
   Four Card Feature Section
   Global CSS
-  Last updated: 2026-02-02
+  Last updated: 2026-02-05
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600&display=swap");
+
+/* ============================================================
+   Design Tokens
+============================================================ */
 
 :root {
-  --primary-color: hsl(0, 78%, 63%);
-  --secondary-color: hsl(180, 62%, 55%);
-  --tertiary-color: hsl(34, 97%, 64%);
-  --fourth-color: hsl(212, 86%, 64%);
-  --neutral-grey: hsl(234, 12%, 34%);
-  --neutral-light-grey: hsl(212, 6%, 44%);
-  --white: hsl(0, 0%, 100%);
-  --font-primary: "Poppins", Arial, sans-serif;
-  --font-size-base: 15px;
+  /* Color Tokens */
+  --color-red: hsl(0, 78%, 63%);
+  --color-cyan: hsl(180, 62%, 55%);
+  --color-orange: hsl(34, 97%, 64%);
+  --color-blue: hsl(212, 86%, 64%);
+  --color-grey-500: hsl(234, 12%, 34%);
+  --color-grey-400: hsl(212, 6%, 44%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Typography Tokens */
+  --font-family-base: "Poppins", sans-serif;
+
+  --font-size-xl: 2.25rem; /* 36px */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-md: 0.9375rem; /* 15px */
+  --font-size-sm: 0.8125rem; /* 13px */
+
+  /* Spacing Tokens */
+  --space-1: 0.5rem; /* 8px */
+  --space-2: 1rem; /* 16px */
+  --space-3: 1.5rem; /* 24px */
+  --space-4: 2rem; /* 32px */
+  --space-5: 2.5rem; /* 40px */
+
+  /* Layout Tokens */
+  --container-max-width: 320px;
+}
+
+/* ============================================================
+   Base / Reset
+============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  background-color: hsl(0, 0%, 98%);
+  color: var(--color-grey-500);
+}
+
+/* ============================================================
+   Layout Helpers
+============================================================ */
+
+.container {
+  max-width: var(--container-max-width);
+  margin-inline: auto;
+  padding-inline: var(--space-2);
+}
+
+/* ============================================================
+   Header
+============================================================ */
+
+.header {
+  text-align: center;
+  margin-bottom: var(--space-5);
+}
+
+.header h1 {
+  font-size: var(--font-size-xl);
+  font-weight: 200;
+}
+
+.header h1 span {
+  font-weight: 600;
+}
+
+.header p {
+  font-size: var(--font-size-md);
+  color: var(--color-grey-400);
+  max-width: 540px;
+  margin: var(--space-2) auto 0;
+}
+
+/* ============================================================
+   Cards (Mobile default)
+============================================================ */
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+}
+
+.card {
+  background-color: var(--color-white);
+  border-radius: 0.75rem;
+  padding: var(--space-4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin-bottom: var(--space-1);
+  font-size: var(--font-size-lg);
+}
+
+.card p {
+  font-size: var(--font-size-md);
+  color: var(--color-grey-400);
+  line-height: 1.6;
+}
+
+/* Accent Borders */
+
+.card--supervisor {
+  border-top: 4px solid var(--color-cyan);
+}
+
+.card--team {
+  border-top: 4px solid var(--color-red);
+}
+
+.card--karma {
+  border-top: 4px solid var(--color-orange);
+}
+
+.card--calculator {
+  border-top: 4px solid var(--color-blue);
+}
+
+/* ============================================================
+   Tablet
+============================================================ */
+
+@media (min-width: 768px) {
+  :root {
+    --container-max-width: 720px;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================================================
+   Desktop / Large Desktop
+============================================================ */
+
+@media (min-width: 1440px) {
+  :root {
+    --container-max-width: 1440px;
+  }
+
+  .header {
+    max-width: 540px;
+    margin-inline: auto;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(12);
+    gap: var(--space-4);
+    margin-inline: auto;
+  }
+
+  .card--supervisor {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .card--team {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .card--karma {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .card--calculator {
+    grid-column: 3;
+    grid-row: 2;
+  }
 }
